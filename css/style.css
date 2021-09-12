@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ---------------Header--------------- */
+
+header{
+    width: 100%;
+    height: 65px;
+    background: rgb(224, 224, 224);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* ---------------Header img part--------------- */
+.head-one{
+    width: 20%;
+    float: left;
+}
+.head-one img{
+    width: 130px;
+    padding: 18px 0px;
+}
+
+
+/* ---------------header ul link part--------------- */
+
+.head-two{
+    width: 60%;
+    font-size: 22px;
+    float: left;
+}
+.head-two ul{
+    margin-left: 75px;
+}
+.head-two ul li{
+    display: inline-block;
+    padding: 19px 5px;
+    margin-left: 30px;
+}
+.head-two ul li:hover{
+    background: rgb(238, 237, 237);
+}
+
+
+/* ---------------header social media part--------------- */
+
+.head-three{
+    width: 20%;
+    float: right;
+}
+.head-three ul{
+    margin-left: 80px;
+}
+.head-three ul li{
+    display: inline-block;
+    padding: 14.2px 0px;
+    margin-left: 10px;
+
+}
+.head-three ul li a{
+    font-size: 30px;
+}
+/* ---------------header End--------------- */
+
+
+/* ---------------main part one--------------- */
+.main{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.main-one{
+    width: 100%;
+    height: 550px;
+    background: #FAF0F0;
+}
+
+
+/*-- ----------main writing part---------- --*/
+.main-one-pone{
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+}
+.main-one-pone h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-left: 50px;
+}
+.main-one-pone p{
+    width: 500px;
+    color: #797373;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+.main-one-pone button{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    background: #4D76C5;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+}
+
+
+/*-- ----------main img part---------- --*/
+.main-one-ptwo{
+    width: 50%;
+    float: left;
+}
+.main-one-ptwo img{
+    height: 550px;
+    margin-left: 50px;
+}
+/*-- ---------------Main END--------------- --*/
+
+
+/* ---------------Logo--------------- */
+.logo{
+    width: 100%;
+    float: left;
+    height: 350px;
+}
+.logo p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.logo-one ul li{
+    display: inline-block;
+    
+}
+.logo-one ul .logo-margin{
+    margin-left: 95px;
+}
+.logo hr{
+    margin-top: 50px;
+    opacity: 0.15;
+}
+/* ---------------Logo END--------------- */
+
+/* ---------------mainTwo Part--------------- */
+.mainTwo{
+    width: 100%;
+    float: left;
+}
+.mainTwo h1{
+    margin-left: 300px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 15px;
+}
+/* ---------------mainTwo END--------------- */
+
+/*-- ------------midOne part------------ --*/
+.midOne{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+
+
+/* ---------------mid left part--------------- */
+.mid-one{
+    width: 50%;
+    float: left;
+}
+.mid-one h1{
+    font-size: 35px;
+}
+.mid-one p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 12px;
+}
+.mid-one ul{
+    margin-top: 25px;
+    margin-left: 20px;
+    list-style-type: square;
+}
+.midOne ul li{
+    font-size: 19px;
+    margin-top: 20px;
+}
+.midOne button{
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: whitesmoke;
+    background: #3A68C0;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* ---------------mid right part--------------- */
+.mid-two{
+    width: 50%;
+    float: left;
+}
+.mid-two img{
+    width: 100%;
+    height: 445px;
+}
+/* ---------------mid part END--------------- */
+
+
+/* ---------------Power part--------------- */
+.main-four{
+    width: 100%;
+    float: left;
+}
+.power{
+    width: 100%;
+    height: 500px;
+    background: #F0F2F7;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+/* ---------------Power left--------------- */
+.power-one{
+    width: 50%;
+    float: left;
+}
+.power-one .p-one{
+    width: 60%;
+    font-size: 28px;
+    word-spacing: 1px;
+    margin-left: 80px;
+    margin-top: 100px;
+    line-height: 45px;
+}
+.power h5{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+
+/* ---------------Power right--------------- */
+.p-two{
+    margin-left: 80px;
+}
+.power-two{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.power-two img{
+    width: 400px;
+    margin-left: 60px;
+}
+/* ---------------Power END--------------- */
+
+/* ---------------Serv Part--------------- */
+.serv{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+.serv-one{
+    margin-top: 70px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.serv-two{
+    width: 100%;
+}
+.servne{
+    float: left;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.servOne{
+    float: left;
+    margin-left: 190px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.serv-two p{
+    margin-top: 12px;
+}
+.serv-two h1{
+    font-size: 39px;
+    color: #3A68C0;
+}
+footer{
+    width: 100%;
+    float: left;
+}
+.footer-one{
+    width: 100%;
+    height: 70px;
+    background: rgb(240, 238, 238);
+}
+.footer-one p{
+    text-align: center;
+    padding-top: 30px;
+   
+}
